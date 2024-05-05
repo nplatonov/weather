@@ -1,0 +1,1 @@
+D:\ongoing\.arcnet\R\bin\x64\Rterm --slave --no-restore --encoding UTF-8 -e "rmarkdown::run(file='app.Rmd',default_file='app.Rmd',render_args=list(output_options=list(),quiet=FALSE),shiny_args=list(launch.browser=TRUE,port=NULL,quiet=FALSE))" --args
