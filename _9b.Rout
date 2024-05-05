@@ -1,0 +1,154 @@
+List of 120
+ $ add.smooth                          : logi TRUE
+ $ argosserver                         :List of 3
+  ..$ program : num 4184
+  ..$ username: chr "arctic"
+  ..$ password: chr "polarbear"
+ $ BingMapsKey                         : chr "Av9SEEMMO8H_CxuxhCJh65yBWl7oaDWaAQxLm8VeLwC1JG8MSBDzfWA-6at7JbH7"
+ $ boxcom_client                       :List of 2
+  ..$ id    : chr "qairfrbpjx1ajn4t8trrj8alwnju0e0s"
+  ..$ secret: chr "mgi73N48ClANR2WaFRQ5GqTYTpVYdNpP"
+ $ browserNLdisabled                   : logi FALSE
+ $ catch.script.errors                 : logi FALSE
+ $ CBoundsCheck                        : logi FALSE
+ $ check.bounds                        : logi FALSE
+ $ citation.bibtex.max                 : int 1
+ $ continue                            : chr "+ "
+ $ contrasts                           : Named chr [1:2] "contr.treatment" "contr.poly"
+  ..- attr(*, "names")= chr [1:2] "unordered" "ordered"
+ $ dataMosRu                           : chr "080a8dd885ba9f2ac33e8c106f7f1da5"
+ $ defaultPackages                     : chr [1:5] "datasets" "utils" "grDevices" "graphics" ...
+ $ deltaTime                           : 'proc_time' Named num [1:5] 0.18 0.03 0.21 NA NA
+  ..- attr(*, "names")= chr [1:5] "user.self" "sys.self" "elapsed" "user.child" ...
+ $ demo.ask                            : chr "default"
+ $ deparse.cutoff                      : int 60
+ $ device                              :function (file = if (onefile) "Rplots.pdf" else "Rplot%03d.pdf", width, 
+    height, onefile, family, title, fonts, version, paper, encoding, bg, 
+    fg, pointsize, pagecentre, colormodel, useDingbats, useKerning, fillOddEven, 
+    compress)  
+ $ device.ask.default                  : logi FALSE
+ $ digits                              : int 7
+ $ digits.secs                         : num 0
+ $ download.file.extra                 : chr "-n --location --netrc-file C:/platt/home/.netrc --cookie C:/platt/home/.urs_cookies --cookie-jar C:/platt/home/.urs_cookies"
+ $ dropbox_app                         :List of 2
+  ..$ key   : chr "nstlmaoitqqzx5c"
+  ..$ secret: chr "uvcyst8504qcu1o"
+ $ echo                                : logi FALSE
+ $ ecmwfApi                            :List of 3
+  ..$ email: chr "nikita.platonov@gmail.com"
+  ..$ pwd  : chr "BH5iMyec"
+  ..$ key  : chr "0b954571b135256233059feb1a1d2712"
+ $ editor                              : chr "notepad"
+ $ encoding                            : chr "native.enc"
+ $ error                               : language (function (mytext = "")  { ...
+ $ example.ask                         : chr "default"
+ $ expressions                         : int 5000
+ $ ftpQuartet                          : chr "ftp://oquartet:Tel59219@quartet.narod.ru/"
+ $ googleMaps                          : chr "AIzaSyClMi1ZQcX8ALQHxzMh3JZUnUQPh1X3Kw4"
+ $ googleMaps2                         : chr "AIzaSyDB5n6jFlv3NCOyLw6Qexzej1FUG6SDxm4"
+ $ guiToolkit                          : chr "RGtk2"
+ $ help.search.types                   : chr [1:3] "vignette" "demo" "help"
+ $ help.try.all.packages               : logi FALSE
+ $ help_type                           : chr "html"
+ $ HEREapp                             :'data.frame':	1 obs. of  3 variables:
+  ..$ app_id  : chr "Zkvt1yCZgmE9YfPysxFC"
+  ..$ app_code: chr "0n7z7jV4mZ_gS7-CsD20IQ"
+  ..$ apiKey  : chr "dY8TPOu7Xq5z5EKym7I9LwwmEGT4mLig0pVgv9W8yoM"
+ $ HTTPUserAgent                       : chr "R (4.4.0 x86_64-w64-mingw32 x86_64 mingw32)"
+ $ install.packages.compile.from.source: chr "interactive"
+ $ internet.info                       : int 2
+ $ keep.parse.data                     : logi TRUE
+ $ keep.parse.data.pkgs                : logi FALSE
+ $ keep.source                         : logi FALSE
+ $ keep.source.pkgs                    : logi FALSE
+ $ knitr.graphics.rel_path             : logi FALSE
+ $ knitr_chunk                         :List of 2
+  ..$ cache     : logi TRUE
+  ..$ cache.path: chr "C:/TEMP/RtmpUrsaCache/knit/cache/"
+ $ lifecycle_verbosity                 : chr "quiet"
+ $ locatorBell                         : logi TRUE
+ $ mailer                              : chr "mailto"
+ $ mapboxToken                         : chr "pk.eyJ1IjoibnBsYXRvbm92IiwiYSI6ImNpb2UyNnZvZzAwMHZ1dWt4ZzR1eHFhc3IifQ.Y2nfVLUlf-guxXwf4kNsmg"
+ $ mapzenKey                           : chr "mapzen-ASX418T"
+ $ matprod                             : chr "default"
+ $ max.contour.segments                : int 25000
+ $ max.print                           : int 99999
+ $ menu.graphics                       : logi TRUE
+ $ motuService                         :List of 3
+  ..$ client  : chr "C:/RAS2017/Pechora/20171204-motu/motu/motu-client.py"
+  ..$ user    : chr "nplatonov"
+  ..$ password: chr "L1i@NRJ^4BUiu"
+ $ na.action                           : chr "na.omit"
+ $ nwarnings                           : int 50
+ $ oldTitle                            : chr "Rscript _9b.R > _9b.Rout - Far 3.0.6000.0"
+ $ openrouteserviceToken               : chr "5b3ce3597851110001cf624827f3c2be3c9f4147800aa7d19be9050e"
+ $ OpenWeatherMapAPI                   : chr "5ce336344d5233b8b1ed96929a1857ce"
+ $ origin                              : Date[1:1], format: "1970-01-01"
+ $ OutDec                              : chr "."
+ $ pager                               : chr "internal"
+ $ papersize                           : chr "a4"
+ $ PCRE_limit_recursion                : logi NA
+ $ PCRE_study                          : logi FALSE
+ $ PCRE_use_JIT                        : logi TRUE
+ $ pdfviewer                           : chr "C:/Software/R/bin/x64/open.exe"
+ $ pickpointKey                        : chr "1QYWYdD2kckz8svyrC2W"
+ $ pkgType                             : chr "both"
+ $ prompt                              : chr "> "
+ $ repos                               : Named chr "https://cran.rstudio.com/"
+  ..- attr(*, "names")= chr "CRAN"
+ $ rgdal_show_exportToProj4_warnings   : chr "none"
+ $ rmarkdown.html_vignette.check_title : logi FALSE
+ $ rocldApi                            : chr "9e9730972d0b2e82d80cbfa73865bd4b"
+ $ rsconnect                           :List of 3
+  ..$ name  : chr "nplatonov"
+  ..$ token : chr "8984D8B8C8AA4B6DF21A00D53EDA3C89"
+  ..$ secret: chr "V+DzJpl+pgLnOEiZ72ePRvCfkDjb2CtTG09riqEy"
+ $ rsconnectMartin                     :List of 3
+  ..$ name  : chr "wwfarcticprogramme"
+  ..$ token : chr "6DD89699B116841BE257890AA85A6F1C"
+  ..$ secret: chr "HrQpCd5x9yHzhMCgttj5egi7vy2iuCxc2fMyIRJW"
+ $ rsconnectWWF                        :List of 3
+  ..$ name  : chr "wwfrussia"
+  ..$ token : chr "E6D504EA867F4CDC774E6D195E3A721D"
+  ..$ secret: chr "9Gkja6fLeDjJ/IPgYMART8knuteVe7+AG7uHpLxF"
+ $ SAS_Planet_cache                    : chr "D:/ongoing/SAS.Planet/cache_sqlite"
+ $ scipen                              : num 0
+ $ sevinExpedition                     :'data.frame':	1 obs. of  6 variables:
+  ..$ host.name: chr "smtp.mail.yahoo.com"
+  ..$ user.name: chr "nplatonov@yahoo.com"
+  ..$ passwd   : chr "!Edon164"
+  ..$ port     : num 587
+  ..$ ssl      : logi TRUE
+  ..$ from     : chr "Sevin Dataware <sevin.dataware@yahoo.com>"
+ $ sevinPersonal                       :'data.frame':	1 obs. of  6 variables:
+  ..$ host.name: chr "mail.sevin.ru"
+  ..$ user.name: chr "platonov@sevin.ru"
+  ..$ passwd   : chr "edon164"
+  ..$ port     : num 25
+  ..$ ssl      : logi FALSE
+  ..$ from     : chr "Sevin Dataware (alt) <platonov@sevin.ru>"
+ $ shiny.launch.browser                : logi TRUE
+ $ show.coef.Pvalues                   : logi TRUE
+ $ show.error.messages                 : logi TRUE
+ $ show.signif.stars                   : logi TRUE
+ $ showErrorCalls                      : logi TRUE
+ $ showNCalls                          : int 50
+ $ showWarnCalls                       : logi FALSE
+ $ stadiamaps_api_key                  : chr "3f27ef3c-1f0a-4600-a4df-1031b6fe02ca"
+ $ startTime                           : 'proc_time' Named num [1:5] 0.18 0.03 0.21 NA NA
+  ..- attr(*, "names")= chr [1:5] "user.self" "sys.self" "elapsed" "user.child" ...
+ $ str                                 :List of 7
+  ..$ strict.width     : chr "no"
+  ..$ digits.d         : int 3
+  ..$ vec.len          : int 4
+  ..$ list.len         : int 99
+  ..$ deparse.lines    : NULL
+  ..$ drop.deparse.attr: logi TRUE
+  ..$ formatNum        :function (x, ...)  
+ $ str.dendrogram.last                 : chr "`"
+ $ stringsAsFactors                    : logi FALSE
+ $ Sys.curl                            : chr "/usr/bin/curl.exe"
+ $ texi2dvi                            : chr "C:/Software/R/Rtools/miktex/miktex/bin/texi2dvi.exe"
+ $ ThunderforestApiKey                 : chr "ba6a53c633d74cf5a84d5208e5349e7f"
+ $ timeout                             : int 60
+  [list output truncated]

@@ -1,0 +1,42 @@
+[data-header^=panel] .form-group {
+   margin-top: -3px !important;
+   margin-bottom: -6px !important;
+}
+[data-header^=panel] .irs {
+   margin-top: -21px !important;
+}
+[data-header^=panel] .control-label {
+   display: block;
+   position: relative;
+   top: 0px;
+   left: 22px;
+}
+.selectize-control.single .selectize-input:not(.no-arrow)::after {
+   right: 8px;
+}
+.selectize-control {
+   font-size: 13px;
+}
+.selectize-input {
+   padding: 5px 8px;
+}
+@media screen and (max-height: 699px) {
+   [data-header^=panel] .form-group {
+      margin-top: 2px !important;
+   }
+   [data-header^=panel] .irs-grid {
+      display: none;
+   }
+   [data-header^=panel] .irs--shiny.irs-with-grid {
+      height: 40px;
+   }
+   [data-header^=panel] .control-label {
+      display: none;
+   }
+   [data-header^=panel] .irs {
+      margin-top: -3px !important;
+   }
+}
+[id^=verb] {
+   font-size: 65%;
+}
