@@ -1,5 +1,6 @@
+staffOnly <- T & nchar(Sys.getenv("MSOFFICE"))>0
 lib.loc <- "D:/ongoing/.arcnet/Rlibs"
-require(ursa,lib.loc=if (dir.exists(lib.loc)) lib.loc else NULL)
+require(ursa,lib.loc=if (F & dir.exists(lib.loc)) lib.loc else NULL)
 suppressMessages(require(ggplot2))
 isShiny <- isNamespaceLoaded("shiny")
 tz <- "Asia/Krasnoyarsk"
@@ -471,8 +472,12 @@ source("windrose.R")
       else
          p1 <- p1+geom_line(size=size)
    }
-   count <<- count+1L
-   p1 <- p1+labs(y=paste0(count,": ",label),x=NULL)
+   if (staffOnly)
+      count <<- count+1L
+   if (staffOnly)
+      p1 <- p1+labs(y=paste0(count,": ",label),x=NULL)
+   else
+      p1 <- p1+labs(y=label,x=NULL)
    if (span<1)
       p1 <- p1+scale_x_datetime(date_label=dl
                                ,date_breaks="1 month",date_minor_breaks="1 month")

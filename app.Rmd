@@ -22,7 +22,7 @@ output:
       favicon2: https://sev-in.ru/sites/default/files/Логотип_1.ico
       favicon: assets/sevin.jpg
       navbar:
-         - { icon: "ion-social-github", href: "https://github.com/nplatonov", align: right, target: _blank}
+         - { icon: "ion-social-github", href: "https://github.com/nplatonov/weather", align: right, target: _blank}
          - { title: "Платонов Н. Г., ИПЭЭ РАН", icon: "ion-person", href: "https://sev-in.ru/user/412", align: right, target: _blank}
      # source_code: "https://github.com/nplatonov"
 ---
@@ -72,11 +72,7 @@ selectInput("year","Годы для анализа"
 checkboxInput("draw","Отрисовка",value=!TRUE)
 ```
 
-
----
-
-
-```{r eval=T}
+```{r eval=staffOnly}
 verbatimTextOutput("verbose2")
 output$verbose2 <- renderPrint({
    print(count)
@@ -86,10 +82,10 @@ output$verbose2 <- renderPrint({
 })
 ```
 
-
 ---
 
-```{r}
+
+```{r eval=staffOnly}
 textOutput("verbose3")
 output$verbose3 <- renderText({
    paste("flexdashboard:",as.character(packageVersion("flexdashboard"))
@@ -151,7 +147,7 @@ output$stationMap <- renderImage({
 
 ### {data-info="column 1, row 2"}
 
-```{r}
+```{r, eval=staffOnly}
 verbatimTextOutput("verbose")
 output$verbose <- renderPrint({
    ursa:::.gc(TRUE)
@@ -164,7 +160,7 @@ output$verbose <- renderPrint({
 renderImage({
    cat("render Sunset:\n")
    req(stationLUT()["о. Диксон"] %in% input[["station"]])
-   ret <- knitr::include_graphics("../sunset/Dikson-202408/sunset.png")
+   ret <- knitr::include_graphics("./assets/sunset.png")
    list(src=ret
        ,'height'="auto"
        ,'width'="90%"
