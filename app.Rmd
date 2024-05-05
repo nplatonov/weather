@@ -14,7 +14,6 @@ output:
       css:
          - ./site_libs/flex_dashboard.css
          - ./site_libs/custom.css
-         - ./site_libs/common.css
       logo3: assets/sevin.jpg
       logo1: http://www.onlinereg.ru/carniv.reintro/Logo3.jpg
       logo2: https://sev-in.ru/sites/default/files/Логотип_1.ico

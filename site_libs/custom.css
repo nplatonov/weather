@@ -20,6 +20,9 @@
 .selectize-input {
    padding: 5px 8px;
 }
+[id^=verb] {
+   font-size: 65%;
+}
 @media screen and (max-height: 699px) {
    [data-header^=panel] .form-group {
       margin-top: 2px !important;
@@ -36,7 +39,4 @@
    [data-header^=panel] .irs {
       margin-top: -3px !important;
    }
-}
-[id^=verb] {
-   font-size: 65%;
 }

@@ -461,7 +461,7 @@ strong {
      /* display: flex; */
      /* padding-bottom: 6px; */
    }
-   .navbar-logo: {
+   .navbar-logo {
       margin-top: 0px !important;
       margin-left: -40px !important;
    }

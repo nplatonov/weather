@@ -10,7 +10,7 @@ if (isNamespaceLoaded("ggplot2"))
                  ,stop("unknown graphic device")))
 dl <- "       %b"
 count <- 0L
-station0 <- spatial_read("dixon")
+station0 <- spatial_read("data/dixon.geojson")
 source("windrose.R")
 'stationLUT' <- function() {
    if (F) {
@@ -40,7 +40,7 @@ source("windrose.R")
                            ,size="s",easyClose=T,footer=NULL))
       on.exit(removeModal())
    }
-   list1 <- dir(pattern="^.*2\\d{4}.*\\.qs$")
+   list1 <- dir(path="data",pattern="^.*2\\d{4}.*\\.qs$",full.names=TRUE)
    wmoID <- as.integer(gsub("\\D*(2\\d{4})\\D*","\\1",basename(list1)))
    wmo <- lapply(wmoID,\(x) {
       fname <- list1[grep(x,basename(list1))]
