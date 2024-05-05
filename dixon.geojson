@@ -1,0 +1,5 @@
+{"type":"Feature","properties":{"wmo":20674,"name":"о. Диксон"    ,"alt":"Dikson"     },"geometry":{"type":"Point","coordinates":[80.374535,73.516683]}}
+{"type":"Feature","properties":{"wmo":20476,"name":"м. Стерлегова","alt": "Sterlegova"},"geometry":{"type":"Point","coordinates":[88.948606,75.414403]}}
+{"type":"Feature","properties":{"wmo":20871,"name":"Соп. Карга"   ,"alt":"Sop. Karga" },"geometry":{"type":"Point","coordinates":[82.704163,71.876070]}}
+{"type":"Feature","properties":{"wmo":20471,"name":"о. Тройной"   ,"alt": "Izv. TsYK" },"geometry":{"type":"Point","coordinates":[82.968805,75.948237]}}
+{"type":"Feature","properties":{"wmo":20667,"name":"о. Белый"     ,"alt":"Belyi"      },"geometry":{"type":"Point","coordinates":[70.066360,73.332670]}}
