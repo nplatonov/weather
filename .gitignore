@@ -1,0 +1,8 @@
+rsconnect/
+previous/
+devel/
+_*
+*.knitted
+*.csv
+*.csv.*gz
+report*.*
