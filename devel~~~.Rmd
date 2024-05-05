@@ -1,0 +1,82 @@
+---
+pagetitle: devel
+link-citations: true
+output:
+   html_vignette:
+      css:
+      - site_libs/common.css
+      - site_libs/html_vignette.css
+      number_sections: false
+      keep_md: false
+      mathjax: ~
+      df_print: kable
+      self_contained: false
+      fig_width: 6.73
+      fig_height: 4.3
+      toc: false
+      pandoc_args:
+      - --wrap=preserve
+      - --from=markdown+autolink_bare_uris-tex_math_single_backslash
+date: '<span class="when"> <span class="updated">Updated: 2024-05-05 19:09</span></span>'
+---
+
+```{r initfc0d2d83001686832a9ea5b97f5ed178, include=FALSE}
+knitr::opts_chunk$set(customized_rendering=TRUE
+                     ,cache=FALSE
+                     ,root.dir="."
+                     ,cache.path="devel_cache/"
+                     ,comment=""
+                     ,collapse=FALSE
+                     ,fig.path="devel_figs/"
+                     ,fig.retina=2
+                     ,dev="svglite"
+                     ,echo=FALSE
+                     ,message=FALSE
+                     ,warning=FALSE
+                     ,tidy.opts=list(blank=F,width.cutoff=60)
+                     ,widgetframe_widgets_dir="devel_figs"
+                     ,widgetframe_self_contained=FALSE
+                     ,widgetframe_isolate_widgets=FALSE)
+options(htmltools.dir.version=TRUE,htmltools.preserve.raw=TRUE,width=106,rmarkdown.html_vignette.check_title=FALSE)
+
+```
+
+
+
+```{r}
+source("resources.R")
+# station_map()
+options(device=function() png(width=960,height=720))
+ursa:::.elapsedTime("wmo -- start")
+wmo <- get_wmo()
+ursa:::.elapsedTime("wmo -- finish")
+station <- c('Dikson'="20674",'Sterlegova'="20476",'SopKarga'="20871"
+            ,'TSYK'="20471",'Belyi'="20667") |> head(1)
+year <- seq(2023,2005) |> head(5) |> tail(5)
+season <- seasonLUT()[seq(8,11)]
+prm <- "T"
+str(list(prm=prm,station=unname(station),year=unname(year),season=unname(season)))
+da <- subset_wmo(wmo,prm=prm,station=station,year=year,season=season)
+str(da)
+q()
+```
+```{r out.width=480}
+if (F) {
+   station_map(station)
+}
+```
+```{r}
+if (T) {
+   p1 <- plot_timeseries(da,prm=prm,span=0,tuning=c("all","value","category")[1])
+   print(p1)
+  # ursa:::widgetize(plotly::ggplotly(p1))
+}
+```
+```{r}
+if (F) {
+  # p1 <- plot_timeseries(wmo,prm="T",station=station,year=year,season=season,span=0)
+   p2 <- plot_windrose(da)
+   print(p2)
+}
+```
+
